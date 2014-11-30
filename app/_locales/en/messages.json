@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "grouptab",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Select tabs to group",
+    "description": "The description of the application"
+  }
+}

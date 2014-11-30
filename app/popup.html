@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- build:css styles/vendor.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:css styles/main.css -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
+        <link href="styles/jquery-ui.structure.min.css" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet">
+
+        <!-- endbuild -->
+    </head>
+    <body>
+        
+        <div id="tabs">
+            <script id="template" type="x-tmpl-mustache">
+                <ul>
+                    {{#tabs}}
+                        <li>
+                            <img width="16" height="16" src="{{ favIconUrl }}" alt="">
+                            {{ title }}
+                        </li>
+                    {{/tabs}}
+                </ul>
+            </script>
+        </div>
+
+        <!-- build:js scripts/popup.js -->
+        <script src="scripts/jquery-2.1.1.min.js"></script>
+        <script src="scripts/jquery-ui.min.js"></script>
+        <script src="scripts/mustache.min.js"></script>
+        <script src="scripts/popup.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>
